@@ -20,7 +20,7 @@ console.log(product);
 // cone el metodo o función freeze bloqueamos el objeto para que no se puedan agregar mas propiedades, eliminarlas o modificarlas (editarlas).
 //Object.freeze(product);
 
-// Si usamos el metodo seal no podemos agregar ni eliminar pero si se puede editar om odificar una propiedad.
+// Si usamos el metodo seal no podemos agregar ni eliminar pero si se puede editar o modificar una propiedad.
 Object.seal(product);
 
 // Vamos a agregar una nueva propiedad color 

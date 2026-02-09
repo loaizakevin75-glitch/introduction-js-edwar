@@ -36,9 +36,15 @@ const shoppingCart = [
 
 //Ahora ForEach con arrow function
 
-// // Recorrer un arreglo por cada elemento
-shoppingCart.forEach((product) => console.log(product));
-shoppingCart.forEach((product) => console.log(product.productName));
-shoppingCart.forEach((product) => console.log(product.price));
-shoppingCart.forEach((product) => console.log(product.color));
+// // // Recorrer un arreglo por cada elemento
+// shoppingCart.forEach((product) => console.log(product));
+// shoppingCart.forEach((product) => console.log(product.productName));
+// shoppingCart.forEach((product) => console.log(product.price));
+// shoppingCart.forEach((product) => console.log(product.color));
+
+//======================================================================
+
+const array = shoppingCart.map(product => `El nombre del producto es: ${product.productname} - ${product.price}`);
+
+console.log(array);
 
